@@ -1,0 +1,84 @@
+body {
+    font-family: "Handlee", sans-serif;
+    width: 300px; 
+    min-height: 360px; 
+    border: 0.5px solid #ffca28; 
+    border-radius: 8px; 
+    padding: 10px; 
+    box-shadow: 0 0 6px #fafafa;
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #ffca28;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.clickable-img {
+    cursor: pointer; 
+    width: 28px; 
+    height: 28px;
+    align-self: baseline;
+
+}
+
+#task-container {
+    display: flex;
+    align-items: center;
+}
+
+#task-input {
+    flex: 1.2;
+    margin-right: 5px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #7cb342;
+    opacity: 3;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border: none;
+    border-bottom: 2px solid #ffca28;
+    border-radius: 5px
+}
+  
+#task-input::placeholder {
+    color: #7cb342;
+    font-size: small
+}
+
+#task-input:focus {
+    border-color: #ffca28; 
+    box-shadow: 0 0 3px #b88f17; 
+    outline: none; 
+}
+
+.task-text {
+    flex: 1;
+}
