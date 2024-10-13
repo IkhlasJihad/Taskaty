@@ -8,7 +8,7 @@ Effortlessly boost daily productivity and manage your tasks from the browser wit
 
 ### How does it look
 
-![Taskaty](https://github.com/IkhlasJihad/Taskaty/images/taskaty.JPG)
+![Taskaty](https://github.com/IkhlasJihad/Taskaty/blob/main/images/taskaty.JPG)
 
 ### How To use
 Add the extension to your browser, set keyboard shortcut for it e.g. **Ctrl+T**, and Enjoy!
