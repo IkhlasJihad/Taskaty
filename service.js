@@ -72,7 +72,7 @@ function addTaskToDOM(task) {
     };
     li.appendChild(taskText);
     li.appendChild(deleteImage);
-    taskList.appendChild(li);
+    taskList.insertBefore(li, taskList.firstChild)
     return li
 }
 
